@@ -30,6 +30,6 @@ jobs:
       - id: 'upload-static-files'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
-          path: './'
+          path: './CCAssignment-4/'
           destination: 'staticwebapp_bucket'
           parent: false
